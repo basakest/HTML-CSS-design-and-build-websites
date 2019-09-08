@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>:hover, :actie, :focus</title>
+		<style type="text/css">
+			input {
+				padding: 6px 12px 6px 12px;
+				border: 1px sollid #665544;
+				color: #ffffff;
+			}
+			input.submit:hover {
+				background-color: #665544;
+			}
+			input.submit:active: {
+				background-color: chocolate;
+			}
+			input.text {
+				color: #cccccc;
+			}
+			input.text:focus: {
+				color: #665544;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<input type="text" value="Enter email address..." class="text" />
+			<input type="submit" name="Submit" class="submit" />
+		</form>
+	</body>
+</html>
